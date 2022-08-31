@@ -1,0 +1,12 @@
+{
+  "extends": "./node_modules/@rushstack/heft-web-rig/profiles/app/tsconfig-base.json",
+  "compilerOptions": {
+    // TODO: enable this feature.
+    "noImplicitAny": false,
+    // TODO: enable this feature.
+    "strict": false,
+    "skipLibCheck": true,
+    "types": ["heft-jest", "node"],
+    "downlevelIteration": true
+  }
+}
